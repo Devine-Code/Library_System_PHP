@@ -29,7 +29,7 @@ include '../libs/database_class.php';
 $db = new Mysql();
 $db->Mysql();
 $conString = $db->dbConnect();
-$successMsg = "Add a Book";
+$successMsg = "Add a Book From Here";
 if(isset($_POST['addBook']))
 {
 	$values[0] = array("val" => $_POST["bookId"],"type" => "char");
