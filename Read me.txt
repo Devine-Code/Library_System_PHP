@@ -1,0 +1,1 @@
+1. Please run the MySql script in the folder to create and store the database on your system.
